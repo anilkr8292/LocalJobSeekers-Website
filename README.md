@@ -1,0 +1,2 @@
+# LocalJobSeekers-Website
+Localjobseeker is a online website which will provide a job for job seekers and also provide job for any type of skilled workers. If any person facing problems in their house hold issue such as Electricity, plumbing and carpenter etc. This website will provide job to person in local area in which they are residing. This website will mapped for job seekers  with their job provider.
