@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logo-head{
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+  padding-left: 5rem;
+}
+#homee, #aboutt, #contactt, #loginn, #jbs, #signupp{
+  text-decoration: none;
+}
+.navbar-nav{
+  font-weight: bold;
+  font-style: normal;
+}
+.templateContainer{
+  margin: 5% 0;
+}
+.templateContainer > .searchInput_Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.templateContainer > .searchInput_Container input{
+  width: 50%;
+  padding: 10px;
+  outline: none;
+}
+.templateContainer .template_Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.templateContainer .template_Container .template{
+  background-color: white;
+  margin: 30px;
+  padding: 0px 20px;
+}
+.templateContainer .template_Container .template img{
+  height: 250px;
+}
+
+.price{
+   color: blueviolet;
+   font-weight: bold;
+}
+
+
+/* -------------signup--------------------- */
+*{
+  margin: 0%;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/reg-back.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.form-box{
+  width: 450px;
+  height: 610px;
+  position:relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+}
+.button-box{
+  width: 300px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.toggle-btn{ 
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+
+}
+
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 150px; 
+  height: 100%;
+  background: linear-gradient(to right,#ff105f,#ffad06);
+  border-radius: 30px;
+  transition: 5s;
+}
+
+.input-group{
+  top: 5px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: aoto;
+  background: linear-gradient(to right,#ff105f,#ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+
+}
+
+.contact-box{
+  background-color: aqua;
+
+}
+
+/*------------------ Login page----------------- */
+.Loginmain{
+  margin-top: 15%;
+  border-radius: 47px;
+background: #e3e3e3;
+box-shadow:  -34px -34px 46px #c1c1c1,
+             34px 34px 46px #ffffff;
+}
+
+.fpassword{
+  text-align: right;
+}
+
+
+
+/* --------------Footer---------------- */
+
+footer{
+  padding: 5rem 0;
+  background-color: #182334;
+  color: #fff;
+}
+
+.container h2{
+  color: #fff;
+}
+
+.container a{
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: green;
+  cursor: pointer;
+  margin: 1rem 0S;
+  text-decoration: none;
+}
+
+footer .fontawesome-style:hover{
+  transition: all 3s;
+  animation: rotatefont is linear infinite alternate-reverse;
+  color: #fff;
+}
+
+@keyframes rotatefont {
+  0%{
+    transform: scale(0.3);
+  }
+  
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+footer .main-hero-para{
+  margin: 0;
+}
+
+
+/*--------------------new---------------*/
+
+.heding{
+  margin-top: 4%;
+  text-align: center;
+  color: #0c0c0c;
+  
+  
+
+}
+
+.submit{
+ padding: 5px;
+ margin-top: 1rem;
+  color: green;
+  height: auto;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+ 
+}
+.main{
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: auto;
+  text-align: center;
+  background-color: rgb(226, 226, 227);
+  box-shadow: #045ce0;
+  border-radius: 52px;
+  background: #e0e0e0;
+  box-shadow:  -34px -34px 46px #bebebe,
+               34px 34px 46px #030303;
+
+}
+.msg{
+  text-align: center;
+}
+
+
+
+/*--------------forgate passwoard--------------*/
+
+
+/* .stylecss{
+  
+  margin-left: 40%;
+  width: 20%;
+  justify-content: center;
+  justify-items: center;
+  background-color:rgb(255, 249, 249);
+  border-radius: 6px;
+  background: #ededed;
+  box-shadow:  -27px -27px 54px #c9c9c9,
+               27px 27px 54px #ffffff;
+  size: 100%;         
+ 
+  
+}
+.haid{
+  margin-top: 20%;
+} */
+
+
+
+
+
+
+/*------------------jobprovider-----------------*/
+.maincontainer{
+  border-radius: 6px;
+  background: #ededed;
+  box-shadow:  -27px -27px 54px #c9c9c9,
+               27px 27px 54px #ffffff;
+}
+
+
+
+
+
+
+.navitem{
+  color: #ffffff;
+  background-color: #ededed;
+}
+
+
+
+/*--------------------booking page-------------------------*/
+.bookmain{
+  margin-top: 4%;
+  color: #000000;
+  text-align:center;
+  background-color: #c1f7f2;
+ 
+  
+
+}
+
+.bookimg{
+  margin-top: 0%;
+  margin-right: 95%;
+}
+
+.div{
+  max-width: 400px;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 4%;
+  /* margin-right: 40%; */
+  
+}
+ 
+/* --------------mix-------------- */
+
+.nav-profile{
+  text-decoration: none;
+}
+
+.checkbox{
+  text-decoration: none;
+  background-color: #f7f0f0;
+}

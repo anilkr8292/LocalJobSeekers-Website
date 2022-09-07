@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.pexels.com/photos/7218011/pexels-photo-7218011.jpeg?cs=srgb&dl=pexels-blue-bird-7218011.jpg&fm=jpg",
+        "title": "Painter"
+    },
+    {
+        "id": 2,
+        "image":"https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?cs=srgb&dl=pexels-an%C4%B1l-karakaya-6419128.jpg&fm=jpg",
+        "title": "Plumber"
+    },
+    {
+        "id": 3,
+        "image": "https://images.pexels.com/photos/5691590/pexels-photo-5691590.jpeg?cs=srgb&dl=pexels-ksenia-chernaya-5691590.jpg&fm=jpg",
+        "title": "Electrician"
+    },
+    {
+        "id": 4,
+        "image": "https://images.pexels.com/photos/5711879/pexels-photo-5711879.jpeg?cs=srgb&dl=pexels-anna-shvets-5711879.jpg&fm=jpg",
+        "title": "Carpenter"
+    },
+    {
+        "id": 5,
+        "image": "https://images.pexels.com/photos/2134798/pexels-photo-2134798.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-2134798.jpg&fm=jpg",
+        "title": "Gardener"
+    }
+    
+]

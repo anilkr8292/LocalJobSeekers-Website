@@ -1,0 +1,94 @@
+.rows:first-child{
+    margin-bottom: 100px;
+}
+.container{
+    margin-top: 4%;
+    
+}
+.titles {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.row:nth-child(2) {
+    display: flex;
+}
+
+.row:nth-child(2) .col {
+    padding: 0 15px;
+}
+
+.row:nth-child(2) .col:first-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-bottom: 15px;
+    background-color:transparent;
+    border: 2px saddlebrown;
+    width: max-content;
+    text-transform: uppercase;
+    cursor:pointer;
+    transition: all 0.5s;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: 7%;
+    
+   
+}
+
+.btn:hover {
+    font-weight: bold;
+    font: 1em sans-serif;
+    font-style: oblique;
+}
+
+.row:nth-child(2) .col:last-child {
+    flex: 3;
+}
+
+.cardsimg{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.cardimg{
+    width:220PX;
+    box-shadow: 0 0 0 5px #000000;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 15px 20px 15px 0px;
+}
+.card-header-page img{
+ width: 100%;
+}
+
+.title{
+    text-align: center;
+    color:red;
+    background-color: #80a6f8;
+
+}
+
+.price{
+    display: flex;
+    justify-content:center;
+}
+
+.booking:hover{
+    font-weight: bolder;
+    font-size: larger;
+
+}
+.booking{
+    border: 2px #80a6f8;
+    border-radius: 2px;
+    color: blue;
+    background-color: white;
+}
